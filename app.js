@@ -17,6 +17,6 @@ connectDB()
 app.use('/blogs' , blogRoutes)
 app.use('/users' , userRoutes)
 
-app.listen(7000, () => {
+app.listen(7000, '0.0.0.0' ,  () => {
   console.log("Server started at http://localhost:7000/");
 });
