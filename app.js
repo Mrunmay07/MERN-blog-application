@@ -8,6 +8,7 @@ import "dotenv/config"
 const app = express(); // Object
 
 const PORT = process.env.PORT
+console.log(PORT)
 
 app.use(express.json());
 app.use(cookieParser(process.env.SECRET_KEY))
