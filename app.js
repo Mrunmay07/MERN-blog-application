@@ -19,6 +19,12 @@ connectDB()
 app.use('/blogs' , blogRoutes)
 app.use('/users' , userRoutes)
 
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "MERN Blog API is running"
+  });
+});
+
 app.listen(PORT , '0.0.0.0' ,  () => {
   console.log("Server started at http://localhost:7000/");
 });
