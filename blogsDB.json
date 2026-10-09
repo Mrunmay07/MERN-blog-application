@@ -1,0 +1,43 @@
+[
+  {
+    "id": "2e730eb8-9649-4822-9d89-a4f7cfa26a78",
+    "userId": "5e7f863d-1475-4f43-a982-cfe6737f3599",
+    "title": "AI/ML",
+    "content": "machine learning",
+    "author": "Anshul",
+    "likes": [
+      {
+        "userId": "debc94c8-1111-4854-880b-4fba8400afa9"
+      }
+    ],
+    "comment": [
+      {
+        "id": "e2929553-7a14-4f0d-b3ca-a6f6ef64fe9e",
+        "userId": "debc94c8-1111-4854-880b-4fba8400afa9",
+        "user": "Rakesh",
+        "text": "Good article bro",
+        "createdAt": "2026-08-31T04:55:17.384Z",
+        "updatedAt": "2026-08-31T04:55:17.385Z"
+      }
+    ],
+    "image": null,
+    "createdAt": "2026-08-31T04:52:02.738Z",
+    "updatedAt": "2026-08-31T04:52:02.738Z"
+  },
+  {
+    "id": "bbdafc42-9584-4c5c-8d95-222d9c4f8dd2",
+    "userId": "debc94c8-1111-4854-880b-4fba8400afa9",
+    "title": "Docker",
+    "content": "COntenerization",
+    "author": "Rakesh",
+    "likes": [
+      {
+        "userId": "debc94c8-1111-4854-880b-4fba8400afa9"
+      }
+    ],
+    "comment": [],
+    "image": null,
+    "createdAt": "2026-08-31T04:53:11.132Z",
+    "updatedAt": "2026-08-31T04:53:11.132Z"
+  }
+]
