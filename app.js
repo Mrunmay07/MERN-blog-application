@@ -7,6 +7,8 @@ import "dotenv/config"
 
 const app = express(); // Object
 
+const PORT = process.env.PORT
+
 app.use(express.json());
 app.use(cookieParser(process.env.SECRET_KEY))
 
@@ -17,6 +19,6 @@ connectDB()
 app.use('/blogs' , blogRoutes)
 app.use('/users' , userRoutes)
 
-app.listen(7000, '0.0.0.0' ,  () => {
+app.listen(PORT , '0.0.0.0' ,  () => {
   console.log("Server started at http://localhost:7000/");
 });
